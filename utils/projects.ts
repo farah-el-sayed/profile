@@ -15,7 +15,7 @@ export const projects: Project[] = [
   {
     slug: "learn-theta-e-learning",
     title: "LearnTheta E-Learning",
-    imageSrc: "/imag/learns.jfif",
+    imageSrc: "/imag/learns.jpg",
     imageAlt: "LearnTheta E-Learning",
     desc: "Interactive e-learning platform with course catalog, progress tracking, and structured learning paths — designed with modern UI and responsive layout.",
     tags: ["React", "Tailwind", "JavaScript"],
@@ -25,7 +25,7 @@ export const projects: Project[] = [
   {
     slug: "my-restaurant-app",
     title: "My Restaurant App",
-    imageSrc: "/imag/resturant.jfif",
+    imageSrc: "/imag/resturant.jpg",
     imageAlt: "My Restaurant App",
     desc: "Elegant oriental restaurant landing page showcasing authentic menu items, chef specials, and online table reservation flow.",
     tags: ["React", "API", "JavaScript", "SEO"],
@@ -35,7 +35,7 @@ export const projects: Project[] = [
   {
     slug: "organic-chi-store",
     title: "Organic Chi Store",
-    imageSrc: "/imag/orangics.jfif",
+    imageSrc: "/imag/orangics.jpg",
     imageAlt: "Organic Chi Store",
     desc: "E-commerce interface for organic and healthy products featuring product categories, fresh produce display, and eco-friendly design aesthetic.",
     tags: ["React", "Tailwind", "SEO"],
@@ -45,7 +45,7 @@ export const projects: Project[] = [
   {
     slug: "bookmarker-app",
     title: "Bookmarker App",
-    imageSrc: "/imag/bookmarker.jfif",
+    imageSrc: "/imag/bookmarker.jpg",
     imageAlt: "Bookmarker App",
     desc: "Simple and efficient web bookmark manager allowing users to save, categorize, and quickly access their favorite website links.",
     tags: ["JavaScript", "LocalStorage"],
@@ -55,7 +55,7 @@ export const projects: Project[] = [
   {
     slug: "elitehomes-real-estate",
     title: "EliteHomes Real Estate",
-    imageSrc: "/imag/eliteHome.jfif",
+    imageSrc: "/imag/eliteHome.jpg",
     imageAlt: "EliteHomes Real Estate",
     desc: "Luxury real estate listing web application with property search, interactive filters, high-resolution photo galleries, and agent contact forms.",
     tags: ["JavaScript", "Bootstrap"],
@@ -65,7 +65,7 @@ export const projects: Project[] = [
   {
     slug: "mealify-restaurant-landing",
     title: "Mealify Restaurant Landing",
-    imageSrc: "/imag/mealify.jfif",
+    imageSrc: "/imag/mealify.jpg",
     imageAlt: "Mealify Restaurant Landing",
     desc: "Modern restaurant landing page featuring chef profiles, customer testimonials, food gallery, and dark/light mode toggle.",
     tags: ["CSS3", "HTML5"],
@@ -85,7 +85,7 @@ export const projects: Project[] = [
   {
     slug: "alex-anderson-portfolio",
     title: "Alex Anderson Portfolio",
-    imageSrc: "/imag/alex.jfif",
+    imageSrc: "/imag/alex.jpg",
     imageAlt: "Alex Anderson Portfolio",
     desc: "Professional developer portfolio showcasing mobile apps built with Flutter, Oracle SaaS consulting services, and interactive project details.",
     tags: ["Tailwind"],
@@ -95,7 +95,7 @@ export const projects: Project[] = [
   {
     slug: "weather-app",
     title: "Weather app",
-    imageSrc: "/imag/weatherapps.jfif",
+    imageSrc: "/imag/weatherapps.jpg",
     imageAlt: "Weather app",
     desc: "Clean and minimalist weather forecasting application providing real-time weather updates, humidity metrics, and a 5-day temperature forecast.",
     tags: ["JavaScript", "API", "SEO", "CSS"],

@@ -114,7 +114,7 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
               1024: {
                 slidesPerView: 3,
                 spaceBetween: 50,
-                centeredSlides: false,
+                centeredSlides: true,
               },
             }}
           >

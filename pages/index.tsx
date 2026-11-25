@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import type { GetStaticProps, NextPage } from "next";
 
 import AppHead from "@/components/AppHead";
@@ -27,22 +26,13 @@ export const meta = {
   author: "farah Al Sayed",
   type: "website",
   ogImage: process.env.NEXT_PUBLIC_URL
-    ? `${process.env.NEXT_PUBLIC_URL}/favicons/girll.jfif`
-    : "/favicons/girll.jfif",
+    ? `${process.env.NEXT_PUBLIC_URL}/favicons/girll.jpg`
+    : "/favicons/girll.jpg",
   siteName: "farah Al Sayed",
   imageAlt: "farah Al Sayed portfolio website",
 };
 
 const Home: NextPage<Props> = ({ blogPosts }) => {
-  useEffect(() => {
-    window.history.replaceState(
-      window.history.state,
-      "",
-      `${window.location.pathname}${window.location.search}`
-    );
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <>
       <AppHead

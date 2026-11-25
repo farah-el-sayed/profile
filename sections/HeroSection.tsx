@@ -5,20 +5,12 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 import LinkButton from "../components/LinkButton";
 import { contactEmail } from "utils/site";
-import { useSection } from "context/section";
-import useScrollActive from "hooks/useScrollActive";
 
 import laptop from "../public/laptop-illustration.webp";
 
 const HeroSection: React.FC = () => {
-  const sectionRef = useRef<HTMLElement>(null);
+  const sectionRef = useRef(null);
   const q = gsap.utils.selector(sectionRef);
-  const homeSection = useScrollActive(sectionRef);
-  const { onSectionChange } = useSection();
-
-  useEffect(() => {
-    homeSection && onSectionChange!("home");
-  }, [homeSection, onSectionChange]);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -92,7 +84,6 @@ const HeroSection: React.FC = () => {
   return (
     <section
       ref={sectionRef}
-      id="home"
       className="relative mt-16 sm:mt-8 pt-8 lg:pt-0 px-4 sm:px-8 md:px-20 max-w-5xl sm:pb-24 min-h-[769px] mx-auto sm:flex sm:flex-col sm:justify-center sm:items-center lg:flex-row-reverse"
     >
       <span
@@ -106,7 +97,7 @@ const HeroSection: React.FC = () => {
         <div className="relative w-72 md:w-80 h-80 flex items-center mx-auto">
           <div className="absolute pointer-events-none scale-90 xs:scale-95 mx-auto">
             <Image
-              src="/girll.jfif"
+              src="/girll.jpg"
               width={1177}
               height={1374}
               priority

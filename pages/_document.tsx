@@ -12,7 +12,7 @@ const Document = () => {
           sizes="180x180"
           href="/favicons/apple-touch-icon.png"
         />
-        <link rel="icon" type="image/jpeg" href="/favicons/girll.jfif" />
+        <link rel="icon" type="image/jpeg" href="/favicons/girll.jpg" />
         <link rel="manifest" href="/favicons/site.webmanifest" />
         <link
           rel="mask-icon"

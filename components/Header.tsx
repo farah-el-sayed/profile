@@ -8,13 +8,13 @@ import { useSection } from "context/section";
 
 const navLinks = [
   {
-    url: "#home",
+    url: "#whoami",
     svg: (
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-        <path d="m12 3-10 9h3v9h6v-6h2v6h6v-9h3L12 3zm3 16v-6H9v6H7v-8l5-4.5 5 4.5v8z" />
+        <path d="M12 2a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z" />
       </svg>
     ),
-    text: "Home",
+    text: "Who am i?",
   },
   {
     url: "#projects",
