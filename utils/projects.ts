@@ -55,7 +55,7 @@ export const projects: Project[] = [
   {
     slug: "elitehomes-real-estate",
     title: "EliteHomes Real Estate",
-    imageSrc: "/imag/eliteHome.jpg",
+    imageSrc: "/imag/elitehome.jpg",
     imageAlt: "EliteHomes Real Estate",
     desc: "Luxury real estate listing web application with property search, interactive filters, high-resolution photo galleries, and agent contact forms.",
     tags: ["JavaScript", "Bootstrap"],
